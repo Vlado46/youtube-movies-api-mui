@@ -1,5 +1,15 @@
 export const channels = [
   {
+    name: "Marvel Entertainment",
+    icon: "https://yt3.googleusercontent.com/fGvQjp1vAT1R4bAKTFLaSbdsfdYFDwAzVjeRVQeikH22bvHWsGULZdwIkpZXktcXZc5gFJuA3w=s176-c-k-c0x00ffffff-no-rj",
+    id: "UCvC4D8onUfXzvjTOM-dBfEA",
+  },
+  {
+    name: "DC",
+    icon: "https://yt3.googleusercontent.com/ytc/AL5GRJVPq_PPGrUqqBqGwtoN8Ylsb9T96jox2iAlHnQzkTQ=s176-c-k-c0x00ffffff-no-rj",
+    id: "UCiifkYAs_bq1pt_zbNAzYGg",
+  },
+  {
     name: "Netflix",
     icon: "https://yt3.ggpht.com/ytc/AL5GRJVNWToqHgCO1ez9xLj3HeIEsDlr1nnqH3n9P51weg=s68-c-k-c0x00ffffff-no-rj",
     id: "UCWOA1ZGywLbqmigxE4Qlvuw",
@@ -39,11 +49,7 @@ export const channels = [
     icon: "https://yt3.ggpht.com/PONSj7yNZXmRc_whSU8ihBrDAAeoWMXPXaeAdYYLldEXK4YjXPFw0Uiox6KdDOcujYqhjHSd=s68-c-k-c0x00ffffff-no-rj",
     id: "UCF9imwPMSGz4Vq1NiTWCC7g",
   },
-  {
-    name: "BAY MOVIES",
-    icon: "https://yt3.ggpht.com/lA5zr27CVgnHIgQOAJJ_9hX6AljlbxDDMh8t4SbbgNI74jj4JM1lMjJ-M_RmnEJXgBRMFdrsTA=s176-c-k-c0x00ffffff-no-rj-mo",
-    id: "UC9Cb2xCiy3SoV9fbuJRb5hw",
-  },
+
   {
     name: "Comedy central",
     icon: "https://yt3.ggpht.com/jzUQkiqje00yMdCaTwVauqclC67mNjSSA30Y9ILLsh7zIGOZYaCigN5L-sQCAp0vYuLlfVTiEws=s68-c-k-c0x00ffffff-no-rj",

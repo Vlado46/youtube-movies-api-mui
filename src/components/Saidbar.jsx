@@ -22,8 +22,7 @@ const Saidbar = () => {
         height: { xs: "auto", md: "92%" },
         width: { xs: "100%", md: 221 },
         flexDirection: { md: "column" },
-        paddingTop: 4,
-        paddingBottom: { xs: 0, md: 3 },
+        marginY: 4,
       }}
     >
       <Box

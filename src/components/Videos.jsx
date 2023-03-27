@@ -7,13 +7,18 @@ const Videos = ({ videos }) => {
   if (!videos?.length) return <Loader />;
 
   return (
-    <Stack direction="row" justifyContent="center" flexWrap="wrap">
+    <Stack
+      direction="row"
+      justifyContent="center"
+      flexWrap="wrap"
+      paddingRight={1}
+    >
       {videos?.map((video, index) => (
         <Paper
           className="videos"
           elevation={5}
           key={index}
-          sx={{ height: 320, width: 360, m: 1, background: "White" }}
+          sx={{ height: 320, width: 358, m: 1, background: "White" }}
         >
           <Link
             to={`/video/${video.id.videoId}`}
@@ -21,7 +26,7 @@ const Videos = ({ videos }) => {
           >
             <img
               src={`${video.snippet.thumbnails.high.url}`}
-              style={{ height: "240px", width: "360px" }}
+              style={{ height: "240px", width: "358px" }}
             />
 
             <Typography variant="subtitle1" fontWeight="bold" paddingX={1}>
